@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Todos produtos - Loja Demo</title>
+    <link rel="icon" href="images/main-logo.png" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--HEADER-->
+    <header id="#header">
+      <img
+        src="images/main-logo.png"
+        width="80px"
+        alt="Logo do Loja Demo"
+        class="logo"
+      />
+
+      <ul class="navlist">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html#featured">Loja</a></li>
+        <li><a href="index.html#cta">Pagamento</a></li>
+        <li><a href="index.html#contact">Contate-nos</a></li>
+      </ul>
+
+      <div class="header-icons">
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#"><i class="fa-solid fa-user"></i></a>
+        <div class="fa-solid fa-bars" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <section class="featured" id="featured">
+      <div class="center-text">
+        <h2>Todos Produtos</h2>
+        <select>
+          <option>Mais relevantes</option>
+          <option>Maior preço</option>
+          <option>Menor preço</option>
+        </select>
+      </div>
+
+      <div class="small-container">
+        <div class="row1">
+          <div class="col-4">
+            <img
+              src="processadores/intel9-a.jpg"
+              alt="Processador Intel Core i9-149000, 24-Core, 32-Threads, 3.6Ghz (5.8Ghz Turbo), Cache 36MB, LGA1700, BX8071514900"
+            />
+            <h4>Produto Exemplo</h4>
+            <h5>R$ 9.999,99</h5>
+            <p>Até 12x</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="main-contact">
+        <h3>Loja Demo</h3>
+        <h5>Se conecte com a gente.</h5>
+        <div class="icons">
+          <a
+            href="https://www.facebook.com/profile.php?id=61559046116677&mibextid=ZbWKwL"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></a>
+          <a href="https://www.instagram.com/epy.oficial?igsh=ZzlpbjhteTF5c3Q3"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/mixel2"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="main-contact">
+        <h3>Explore</h3>
+        <li><a href="produtos.html#home">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contate-nos</a></li>
+        <li><a href="trocas.html">Trocas e Devoluções</a></li>
+        <li><a href="privicidade.html">Políticas de Privacidade</a></li>
+        <li><a href="prazos.html">Envios e Prazos</a></li>
+        <li><a href="correio.html">Tributação Alfandegária e Correios</a></li>
+      </div>
+    </section>
+
+    <div class="last-text">
+      <p>
+        Loja Demo - &copy;
+        <span
+          ><script>
+            document.write(new Date().getFullYear());
+          </script></span
+        >
+        Todos os direitos reservados
+      </p>
+    </div>
+
+    <!--VOLTAR PRO TOPO-->
+    <a href="#featured" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!--LINK DO JS-->
+    <script src="script.js"></script>
+  </body>
+</html>
