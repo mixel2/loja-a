@@ -182,6 +182,16 @@ section {
   margin-top: 4rem;
 }
 
+@media only screen and (max-width: 767px) {
+.featured-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 1.3rem;
+  align-items: center;
+  margin-top: 4rem;
+}
+}
+
 .row {
   position: relative;
   transition: all 0.35s ease;
